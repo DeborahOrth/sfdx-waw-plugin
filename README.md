@@ -88,3 +88,7 @@ Delete: `sfdx waw:project:pdir:delete -p <directory>`
 
 `sfdx waw:trace:delete`
 `sfdx waw:trace:delete -u <targetusername>`
+
+## Create a Remote Site
+
+Create a Remote Site: `sfdx waw:remotesite:list -u <username|alias> -n <remoteSiteName> -r <remoteSiteUrl>`

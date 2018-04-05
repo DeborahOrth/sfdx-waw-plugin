@@ -6,6 +6,7 @@ const projectPDirCreate = require('./commands/project_pdir_create.js');
 const projectPDirDelete = require('./commands/project_pdir_delete.js');
 const connectedAppCreate = require('./commands/connectedapp_create.js');
 const connectedAppList = require('./commands/connectedapp_list.js');
+const remoteSiteCreate = require('./commands/remotesite_create.js');
 const traceList = require('./commands/trace_list.js');
 const traceCreate = require('./commands/trace_create.js');
 const traceDelete = require('./commands/trace_delete.js');
@@ -28,6 +29,9 @@ const package2ProjectUpdate = require('./commands/package2_project_update.js');
   },{
     name: 'connectedapp',
     description: 'commands for connected apps'
+  },{
+    name: 'remotesite',
+    description: 'commands for remote site'
   },{
     name: 'project',
     description: 'commands for projects'
@@ -71,6 +75,7 @@ const package2ProjectUpdate = require('./commands/package2_project_update.js');
     projectPDirDelete,
     connectedAppCreate,
     connectedAppList,
+    remoteSiteCreate,
     traceList,
     traceCreate,
     traceDelete,
